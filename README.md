@@ -1,13 +1,14 @@
-# kipro2-diss: k-Induction and Bounded Model Checking for Probabilistic Programs
+# kipro2: k-Induction and Bounded Model Checking for Probabilistic Programs
 
 
 
 ## Contents
 
  1. Installation
- 2. Usage
- 3. Accepted Syntax for Loops
- 4. License
+ 2. Running the Benchmarks
+ 3. Using kipro2
+ 4. Accepted Syntax for Loops
+ 5. License
 
 ## 1. Installation
 
@@ -17,7 +18,15 @@ See [here](https://python-poetry.org/docs/) for installation instructions for po
 
 In the root directory of this repository, run `poetry install` to install the dependencies in a new virtual environment. You are now ready to run cegispro2.
 
-## 2. Usage
+## 2. Running the Benchmark Set 
+
+To run the benchmarks (TO=5min) and obtain a LaTex table in the terminal, execute 
+
+`python3 kipro2/benchmarks/benchmarks.py`
+
+from the root directory. The LaTex code will be printed in the terminal.
+
+## 3. Using kipro2
 
 kipro2 is a Python 3 application using [pysmt](https://github.com/pysmt/pysmt) and [probably](https://github.com/Philipp15b/probably).
 probably is a library built at the Software Modeling and Verification Group of RWTH Aachen to parse and work with pGCL programs and expectations.
@@ -34,7 +43,7 @@ where
 - ENG is either kind (for k-induction) or bmc (for bounded model checking)
 
 
-## 3. Accepted Syntax for Loops
+## 4. Accepted Syntax for Loops
 
 Parsing of pGCL programs and expectations is done by the [probably](https://philipp15b.github.io/probably/) library.
 There are many examples in the `benchmarks` directory.
