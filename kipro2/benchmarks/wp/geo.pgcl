@@ -1,0 +1,21 @@
+# k-induction
+# --post "x" --pre "[c<=0]*(x+1) + [not (c<=0)]*x"
+# --post "x" --pre "x+1"
+# --post "x" --pre "2*x+1"
+
+#BMC
+# --post "x" --pre "x" --engine bmc
+# --post "x" --pre "x+0.9" --engine bmc
+# --post "x" --pre "x+0.9999999999999" --engine bmc
+
+
+nat c;
+nat x;
+
+while(c<=0){
+    {c:=1}[0.5]{x:=x+1}
+}
+
+
+
+

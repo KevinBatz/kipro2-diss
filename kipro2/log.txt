@@ -1,0 +1,3520 @@
+2024-02-10 17:01:19,124 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:01:19,125 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:01:19,128 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:01:19,129 - kipro2 - DEBUG - Parsing guard_probsubpairs. Ignoring ticks for the moment.
+2024-02-10 17:01:19,130 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:01:19,134 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:01:41,081 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:01:41,081 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:01:41,085 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:01:41,086 - kipro2 - DEBUG - Parsing guard_probsubpairs. Ignoring ticks for the moment.
+2024-02-10 17:01:41,086 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:01:41,091 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:03:49,396 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:03:49,396 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:03:49,400 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:03:49,401 - kipro2 - DEBUG - Parsing guard_probsubpairs. Ignoring ticks for the moment.
+2024-02-10 17:03:49,401 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:03:49,405 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:03:49,406 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:03:49,406 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:03:49,408 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:05:18,606 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:05:18,606 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:05:18,610 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:05:18,611 - kipro2 - DEBUG - Parsing guard_probsubpairs. Ignoring ticks for the moment.
+2024-02-10 17:05:18,611 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:05:18,616 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:05:18,617 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:05:18,617 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:05:46,454 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:05:46,454 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:05:46,458 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:05:46,459 - kipro2 - DEBUG - Parsing guard_probsubpairs. Ignoring ticks for the moment.
+2024-02-10 17:05:46,459 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:05:46,464 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:05:46,464 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:05:46,465 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:06:32,961 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:06:32,961 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:06:32,964 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:06:32,965 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:06:32,966 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:06:32,971 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:06:32,972 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2*(1.0f[{r: '1.0', x: 'x +1.0'}]) + 1/2*(1.0f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:06:32,972 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:06:56,826 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:06:56,826 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:06:56,829 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:06:56,830 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:06:56,831 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:06:56,835 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:06:56,836 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2*(1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2*(1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:06:56,836 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:07:36,044 - kipro2 - DEBUG - Parsing program: 
+ # k-induction
+# --post "x" --pre "[c<=0]*(x+1) + [not (c<=0)]*x"
+# --post "x" --pre "x+1"
+# --post "x" --pre "2*x+1"
+
+#BMC
+# --post "x" --pre "x" --engine bmc
+# --post "x" --pre "x+0.9" --engine bmc
+# --post "x" --pre "x+0.9999999999999" --engine bmc
+
+
+nat c;
+nat x;
+
+while(c<=0){
+    {c:=1}[0.5]{x:=x+1}
+}
+
+
+
+
+
+2024-02-10 17:07:36,044 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:07:36,047 - kipro2 - DEBUG - Variables: [c, x]
+2024-02-10 17:07:36,047 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:07:36,048 - kipro2 - DEBUG - The modified variables are: {c, x}
+2024-02-10 17:07:36,053 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:07:36,053 - kipro2 - DEBUG - [((c) <= 0] * (1/2 * (0 + f[{c: '1.0'}]) + 1/2 * (0 + f[{x: 'x +1.0'}]) 
++ [(! ((c) <= 0)] * (0) 
+2024-02-10 17:07:36,053 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:35:08,515 - kipro2 - DEBUG - Parsing program: 
+ # k-induction
+# --post "x" --pre "[c<=0]*(x+1) + [not (c<=0)]*x"
+# --post "x" --pre "x+1"
+# --post "x" --pre "2*x+1"
+
+#BMC
+# --post "x" --pre "x" --engine bmc
+# --post "x" --pre "x+0.9" --engine bmc
+# --post "x" --pre "x+0.9999999999999" --engine bmc
+
+
+nat c;
+nat x;
+
+while(c<=0){
+    {c:=1}[0.5]{x:=x+1}
+}
+
+
+
+
+
+2024-02-10 17:35:08,515 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:35:08,519 - kipro2 - DEBUG - Variables: [c, x]
+2024-02-10 17:35:08,519 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:35:08,519 - kipro2 - DEBUG - The modified variables are: {c, x}
+2024-02-10 17:35:08,524 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:35:08,525 - kipro2 - DEBUG - [((c) <= 0] * (1/2 * (0 + f[{c: '1.0'}]) + 1/2 * (0 + f[{x: 'x +1.0'}]) 
++ [(! ((c) <= 0)] * (0) 
+2024-02-10 17:35:08,525 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:35:34,465 - kipro2 - DEBUG - Parsing program: 
+ # k-induction
+# --post "x" --pre "[c<=0]*(x+1) + [not (c<=0)]*x"
+# --post "x" --pre "x+1"
+# --post "x" --pre "2*x+1"
+
+#BMC
+# --post "x" --pre "x" --engine bmc
+# --post "x" --pre "x+0.9" --engine bmc
+# --post "x" --pre "x+0.9999999999999" --engine bmc
+
+
+nat c;
+nat x;
+
+while(c<=0){
+    {c:=1}[0.5]{x:=x+1}
+}
+
+
+
+
+
+2024-02-10 17:35:34,465 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:35:34,468 - kipro2 - DEBUG - Variables: [c, x]
+2024-02-10 17:35:34,469 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:35:34,469 - kipro2 - DEBUG - The modified variables are: {c, x}
+2024-02-10 17:35:34,474 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:35:34,475 - kipro2 - DEBUG - [((c) <= 0] * (1/2 * (0 + f[{c: '1.0'}]) + 1/2 * (0 + f[{x: 'x +1.0'}]) 
++ [(! ((c) <= 0)] * (0) 
+2024-02-10 17:35:34,475 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:35:52,867 - kipro2 - DEBUG - Parsing program: 
+ # k-induction
+# --post "x" --pre "[c<=0]*(x+1) + [not (c<=0)]*x"
+# --post "x" --pre "x+1"
+# --post "x" --pre "2*x+1"
+
+#BMC
+# --post "x" --pre "x" --engine bmc
+# --post "x" --pre "x+0.9" --engine bmc
+# --post "x" --pre "x+0.9999999999999" --engine bmc
+
+
+nat c;
+nat x;
+
+while(c<=0){
+    {c:=1}[0.5]{x:=x+1}
+}
+
+
+
+
+
+2024-02-10 17:35:52,867 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:35:52,870 - kipro2 - DEBUG - Variables: [c, x]
+2024-02-10 17:35:52,871 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:35:52,871 - kipro2 - DEBUG - The modified variables are: {c, x}
+2024-02-10 17:35:52,876 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:35:52,877 - kipro2 - DEBUG - [((c) <= 0] * (1/2 * (0 + f[{c: '1.0'}]) + 1/2 * (0 + f[{x: 'x +1.0'}]) 
++ [(! ((c) <= 0)] * (0) 
+2024-02-10 17:35:52,877 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:36:12,383 - kipro2 - DEBUG - Parsing program: 
+ # k-induction
+# --post "x" --pre "[c<=0]*(x+1) + [not (c<=0)]*x"
+# --post "x" --pre "x+1"
+# --post "x" --pre "2*x+1"
+
+#BMC
+# --post "x" --pre "x" --engine bmc
+# --post "x" --pre "x+0.9" --engine bmc
+# --post "x" --pre "x+0.9999999999999" --engine bmc
+
+
+nat c;
+nat x;
+
+while(c<=0){
+    {c:=1}[0.5]{x:=x+1}
+}
+
+
+
+
+
+2024-02-10 17:36:12,383 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:36:12,386 - kipro2 - DEBUG - Variables: [c, x]
+2024-02-10 17:36:12,386 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:36:12,387 - kipro2 - DEBUG - The modified variables are: {c, x}
+2024-02-10 17:36:12,391 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:36:12,392 - kipro2 - DEBUG - [((c) <= 0] * (1/2 * (0 + f[{c: '1.0'}]) + 1/2 * (0 + f[{x: 'x +1.0'}]) 
++ [(! ((c) <= 0)] * (0) 
+2024-02-10 17:36:12,392 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:37:02,546 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:37:02,546 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:37:02,549 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:37:02,550 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:37:02,550 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:37:02,555 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:37:02,556 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:37:02,556 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:37:39,484 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:37:39,484 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:37:39,488 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:37:39,489 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:37:39,489 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:37:39,494 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:37:39,495 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:37:39,495 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:39:56,776 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:39:56,776 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:39:56,779 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:39:56,780 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:39:56,781 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:39:56,786 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:39:56,786 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:39:56,786 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:39:56,789 - kipro2 - DEBUG - guards do not partition the state space
+2024-02-10 17:40:14,151 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:40:14,151 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:40:14,155 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:40:14,156 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:40:14,157 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:40:14,161 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:40:14,162 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:40:14,162 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:40:35,724 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:40:35,724 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:40:35,728 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:40:35,729 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:40:35,729 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:40:35,734 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:40:35,735 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:40:35,735 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:42:24,882 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:42:24,882 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:42:24,885 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:42:24,886 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:42:24,887 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:42:24,892 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:42:24,892 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:42:24,893 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:43:10,760 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:43:10,760 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:43:10,764 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:43:10,765 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:43:10,765 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:43:10,770 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:43:10,771 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:43:10,771 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:43:50,820 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:43:50,820 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:43:50,824 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:43:50,825 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:43:50,825 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:43:50,830 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:43:50,831 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:43:50,831 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:44:02,607 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:44:02,607 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:44:02,611 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:44:02,612 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:44:02,612 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:44:02,617 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:44:02,617 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:44:02,617 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:44:23,844 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:44:23,844 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:44:23,847 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:44:23,848 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:44:23,849 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:44:23,853 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:44:23,854 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:44:23,854 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:44:55,237 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:44:55,237 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:44:55,240 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:44:55,241 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:44:55,241 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:44:55,246 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:44:55,247 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:44:55,247 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:45:51,044 - kipro2 - DEBUG - Parsing program: 
+ # k-induction
+# --post "x" --pre "[c<=0]*(x+1) + [not (c<=0)]*x"
+# --post "x" --pre "x+1"
+# --post "x" --pre "2*x+1"
+
+#BMC
+# --post "x" --pre "x" --engine bmc
+# --post "x" --pre "x+0.9" --engine bmc
+# --post "x" --pre "x+0.9999999999999" --engine bmc
+
+
+nat c;
+nat x;
+
+while(c<=0){
+    {c:=1}[0.5]{x:=x+1}
+}
+
+
+
+
+
+2024-02-10 17:45:51,044 - kipro2 - DEBUG - 
+ with postexpectation: 
+ x
+2024-02-10 17:45:51,048 - kipro2 - DEBUG - Variables: [c, x]
+2024-02-10 17:45:51,048 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:45:51,049 - kipro2 - DEBUG - The modified variables are: {c, x}
+2024-02-10 17:45:51,054 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:45:51,055 - kipro2 - DEBUG - [((c) <= 0] * (1/2 * (0 + f[{c: '1.0'}]) + 1/2 * (0 + f[{x: 'x +1.0'}]) 
++ [(! ((c) <= 0)] * (x) 
+2024-02-10 17:45:51,055 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:46:17,403 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:46:17,403 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:46:17,407 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:46:17,408 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:46:17,409 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:46:17,414 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:46:17,414 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:46:17,414 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:46:27,595 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:46:27,595 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:46:27,598 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:46:27,599 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:46:27,600 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:46:27,604 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:46:27,605 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:46:27,605 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:47:17,482 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:47:17,482 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:47:17,486 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:47:17,487 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:47:17,487 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:47:17,491 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:47:17,492 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:47:17,492 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:53:37,722 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:53:37,722 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:53:37,725 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:53:37,726 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:53:37,727 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:53:37,731 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:53:37,732 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:53:37,732 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:54:14,008 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:54:14,008 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:54:14,012 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:54:14,013 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:54:14,013 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:54:14,018 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:54:14,019 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:54:14,019 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:54:48,294 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:54:48,294 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:54:48,297 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:54:48,298 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:54:48,299 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:54:48,303 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:54:48,304 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:54:48,304 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:55:18,860 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:55:18,860 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:55:18,864 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:55:18,865 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:55:18,865 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:55:18,870 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:55:18,870 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:55:18,870 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:57:15,400 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:57:15,400 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:57:15,404 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:57:15,405 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:57:15,406 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:57:15,427 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:57:15,427 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:57:15,427 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:58:00,428 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:58:00,428 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:58:00,432 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:58:00,432 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:58:00,433 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:58:00,438 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:58:00,438 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:58:00,438 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:58:32,467 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:58:32,467 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:58:32,470 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:58:32,471 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:58:32,472 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:58:32,476 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:58:32,477 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:58:32,477 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:59:23,680 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:59:23,680 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:59:23,684 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:59:23,685 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:59:23,685 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 17:59:23,690 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 17:59:23,690 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 17:59:23,690 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 17:59:51,310 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 17:59:51,310 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 17:59:51,313 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 17:59:51,314 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 17:59:51,315 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:00:08,457 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:00:08,457 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:00:08,461 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:00:08,462 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:00:08,462 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:00:40,340 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:00:40,340 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:00:40,343 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:00:40,344 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:00:40,345 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:01:03,559 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:01:03,559 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:01:03,562 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:01:03,563 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:01:03,563 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:01:09,627 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:01:09,627 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:01:09,630 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:01:09,631 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:01:09,631 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:01:43,284 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:01:43,285 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:01:43,288 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:01:43,289 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:01:43,289 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:01:43,294 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:01:43,294 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:01:43,294 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:07:26,486 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:07:26,486 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:07:26,490 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:07:26,491 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:07:26,491 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:07:26,496 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:07:26,496 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:07:26,496 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:08:02,369 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:08:02,369 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:08:02,372 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:08:02,373 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:08:02,374 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:08:02,378 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:08:02,379 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:08:02,379 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:26:20,437 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:26:20,437 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:26:20,441 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:26:20,442 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:26:20,442 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:26:20,447 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:26:20,448 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:26:20,448 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:26:35,232 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    #tick(1);
+}
+
+2024-02-10 18:26:35,232 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:26:35,235 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:26:35,236 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:26:35,237 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:26:35,241 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:26:35,242 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:26:35,242 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:26:54,625 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:26:54,625 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:26:54,628 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:26:54,629 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:26:54,629 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:26:54,634 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:26:54,634 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:26:54,634 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:27:08,646 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:27:08,646 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:27:08,650 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:27:08,651 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:27:08,652 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:27:08,656 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:27:08,657 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:27:08,657 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:28:46,793 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:28:46,793 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:28:46,797 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:28:46,798 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:28:46,799 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:28:46,804 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:28:46,804 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:28:46,804 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:29:21,573 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:29:21,574 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:29:21,577 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:29:21,578 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:29:21,579 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:29:21,584 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:29:21,585 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:29:21,585 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:29:45,147 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:29:45,147 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:29:45,150 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:29:45,151 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:29:45,152 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:29:45,157 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:29:45,157 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:29:45,157 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:30:04,214 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:30:04,214 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:30:04,218 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:30:04,219 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:30:04,219 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:30:04,224 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:30:04,225 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:30:04,225 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:30:45,473 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:30:45,473 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:30:45,477 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:30:45,478 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:30:45,479 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:30:45,483 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:30:45,484 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:30:45,484 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:30:45,492 - kipro2 - DEBUG - pre:
+2024-02-10 18:30:45,493 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) <= 0] * (-2.0*x +2.0*n +0.0*r +0.0) + [(! (((x) + ((n) * -1.0)) <= 0)] * (infty) 
+2024-02-10 18:32:40,954 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:32:40,954 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:32:40,958 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:32:40,959 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:32:40,959 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:32:40,964 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:32:40,964 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:32:40,964 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:32:40,972 - kipro2 - DEBUG - pre:
+2024-02-10 18:32:40,973 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) <= 0] * (-2.0*x +2.0*n +0.0*r +0.0) + [(! (((x) + ((n) * -1.0)) <= 0)] * (infty) 
+2024-02-10 18:33:21,747 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:33:21,747 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:33:21,751 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:33:21,752 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:33:21,752 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:33:21,757 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:33:21,758 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:33:21,758 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:33:21,766 - kipro2 - DEBUG - pre:
+2024-02-10 18:33:21,766 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) <= 0] * (-2.0*x +2.0*n +0.0*r +0.0) + [(! (((x) + ((n) * -1.0)) <= 0)] * (infty) 
+2024-02-10 18:33:28,270 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:33:28,270 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:33:28,273 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:33:28,274 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:33:28,275 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:33:28,279 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:33:28,280 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:33:28,280 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:33:28,288 - kipro2 - DEBUG - pre:
+2024-02-10 18:33:28,288 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) <= 0] * (-2.0*x +2.0*n +0.0*r +0.0) + [(! (((x) + ((n) * -1.0)) <= 0)] * (infty) 
+2024-02-10 18:34:13,304 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:34:13,304 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:34:13,308 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:34:13,309 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:34:13,309 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:34:13,314 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:34:13,314 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:34:13,314 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:34:13,322 - kipro2 - DEBUG - pre:
+2024-02-10 18:34:13,322 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) <= 0] * (-2.0*x +2.0*n +0.0*r +0.0) + [(! (((x) + ((n) * -1.0)) <= 0)] * (infty) 
+2024-02-10 18:35:59,617 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:35:59,617 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:35:59,621 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:35:59,622 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:35:59,622 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:35:59,627 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:35:59,627 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:35:59,627 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:35:59,635 - kipro2 - DEBUG - pre:
+2024-02-10 18:35:59,635 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) <= 0] * (-2.0*x +2.0*n +0.0*r +0.0) + [(! (((x) + ((n) * -1.0)) <= 0)] * (infty) 
+2024-02-10 18:36:10,089 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:36:10,089 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:36:10,093 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:36:10,094 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:36:10,094 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:36:10,098 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:36:10,099 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:36:10,099 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:36:10,106 - kipro2 - DEBUG - pre:
+2024-02-10 18:36:10,107 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) <= 0] * (-2.0*x +2.0*n +0.0*r +0.0) + [(! (((x) + ((n) * -1.0)) <= 0)] * (infty) 
+2024-02-10 18:36:25,350 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:36:25,350 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:36:25,353 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:36:25,354 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:36:25,355 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:36:25,360 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:36:25,360 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:36:25,360 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:36:25,368 - kipro2 - DEBUG - pre:
+2024-02-10 18:36:25,368 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*r +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (infty) 
+2024-02-10 18:37:18,885 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:37:18,885 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:37:18,888 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:37:18,889 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:37:18,890 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:37:18,894 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:37:18,895 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:37:18,895 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:37:18,902 - kipro2 - DEBUG - pre:
+2024-02-10 18:37:18,903 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*r +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (infty) 
+2024-02-10 18:37:28,958 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:37:28,958 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:37:28,962 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:37:28,963 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:37:28,963 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:37:28,968 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:37:28,969 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:37:28,969 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:37:28,977 - kipro2 - DEBUG - pre:
+2024-02-10 18:37:28,977 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*r +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (infty) 
+2024-02-10 18:37:45,388 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat r;
+while (x < n) {
+    r := 1 : 1/2 + 0 : 1/2;
+    x := x + r;
+    tick(1);
+}
+
+2024-02-10 18:37:45,388 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:37:45,392 - kipro2 - DEBUG - Variables: [x, n, r]
+2024-02-10 18:37:45,393 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:37:45,393 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:37:45,398 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:37:45,399 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{r: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{r: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:37:45,399 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:37:45,407 - kipro2 - DEBUG - pre:
+2024-02-10 18:37:45,407 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*r +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:38:33,176 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "0.6*x" --assert-inductive 1
+// examples/NCH-18/linear/linear01.imp
+nat x;
+while (2 <= x) {
+    { x := x - 1; } [1/3] {
+        x := x - 2;
+    }
+    tick(1);
+}
+
+2024-02-10 18:38:33,176 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:38:33,180 - kipro2 - DEBUG - Variables: [x]
+2024-02-10 18:38:33,180 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:38:33,180 - kipro2 - DEBUG - The modified variables are: {x}
+2024-02-10 18:38:33,185 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:38:33,186 - kipro2 - DEBUG - [(((x) * -1.0) <= -2] * (1/3 * (1.0 + f[{x: 'x +-1.0'}]) + 2/3 * (1.0 + f[{x: 'x +-2.0'}]) 
++ [(! (((x) * -1.0) <= -2)] * (0) 
+2024-02-10 18:38:33,186 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:38:33,187 - kipro2 - DEBUG - pre:
+2024-02-10 18:38:33,187 - kipro2 - DEBUG - [True] * (3/5*x +0.0) 
+2024-02-10 18:38:44,603 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "0.6*x" --assert-inductive 1
+// examples/NCH-18/linear/linear01.imp
+nat x;
+while (2 <= x) {
+    { x := x - 1; } [1/3] {
+        x := x - 2;
+    }
+    tick(2);
+}
+
+2024-02-10 18:38:44,603 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:38:44,606 - kipro2 - DEBUG - Variables: [x]
+2024-02-10 18:38:44,607 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:38:44,607 - kipro2 - DEBUG - The modified variables are: {x}
+2024-02-10 18:38:44,612 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:38:44,613 - kipro2 - DEBUG - [(((x) * -1.0) <= -2] * (1/3 * (2.0 + f[{x: 'x +-1.0'}]) + 2/3 * (2.0 + f[{x: 'x +-2.0'}]) 
++ [(! (((x) * -1.0) <= -2)] * (0) 
+2024-02-10 18:38:44,613 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:38:44,614 - kipro2 - DEBUG - pre:
+2024-02-10 18:38:44,614 - kipro2 - DEBUG - [True] * (3/5*x +0.0) 
+2024-02-10 18:39:15,114 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:39:15,114 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:39:15,118 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:39:15,119 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:39:15,119 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:39:15,124 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:39:15,124 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:39:15,124 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:39:15,131 - kipro2 - DEBUG - pre:
+2024-02-10 18:39:15,132 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:39:23,116 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    #tick(1);
+}
+
+2024-02-10 18:39:23,116 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:39:23,119 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:39:23,120 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:39:23,120 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:39:23,125 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:39:23,125 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:39:23,125 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:39:23,132 - kipro2 - DEBUG - pre:
+2024-02-10 18:39:23,133 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:39:36,380 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:39:36,380 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:39:36,383 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:39:36,384 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:39:36,385 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:39:36,389 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:39:36,390 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:39:36,390 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:39:36,398 - kipro2 - DEBUG - pre:
+2024-02-10 18:39:36,398 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:41:06,272 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:41:06,272 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:41:06,275 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:41:06,276 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:41:06,277 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:41:06,281 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:41:06,282 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:41:06,282 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:41:06,289 - kipro2 - DEBUG - pre:
+2024-02-10 18:41:06,289 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:41:12,362 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:41:12,362 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:41:12,366 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:41:12,367 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:41:12,367 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:41:12,372 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:41:12,373 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:41:12,373 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:41:12,381 - kipro2 - DEBUG - pre:
+2024-02-10 18:41:12,382 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:41:58,073 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:41:58,073 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:41:58,076 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:41:58,077 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:41:58,078 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:41:58,083 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:41:58,083 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:41:58,083 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:41:58,091 - kipro2 - DEBUG - pre:
+2024-02-10 18:41:58,091 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:47:18,130 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:47:18,130 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:47:18,134 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:47:18,135 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:47:18,135 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:47:18,140 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:47:18,141 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:47:18,141 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:47:18,148 - kipro2 - DEBUG - pre:
+2024-02-10 18:47:18,148 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:47:30,900 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:47:30,900 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:47:30,903 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:47:30,904 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:47:30,905 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:47:30,909 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:47:30,910 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:47:30,910 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:47:30,918 - kipro2 - DEBUG - pre:
+2024-02-10 18:47:30,918 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:48:16,944 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:48:16,944 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:48:16,947 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:48:16,948 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:48:16,948 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:48:16,953 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:48:16,954 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:48:16,954 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:48:16,961 - kipro2 - DEBUG - pre:
+2024-02-10 18:48:16,961 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:49:06,710 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:49:06,710 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:49:06,713 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:49:06,714 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:49:06,715 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:49:06,719 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:49:06,720 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:49:06,720 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:49:06,727 - kipro2 - DEBUG - pre:
+2024-02-10 18:49:06,727 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:49:16,126 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:49:16,126 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:49:16,129 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:49:16,130 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:49:16,131 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:49:16,135 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:49:16,136 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:49:16,136 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:49:16,143 - kipro2 - DEBUG - pre:
+2024-02-10 18:49:16,143 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:49:45,224 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:49:45,224 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:49:45,228 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:49:45,229 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:49:45,229 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:49:45,234 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:49:45,235 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:49:45,235 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:49:45,243 - kipro2 - DEBUG - pre:
+2024-02-10 18:49:45,243 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:50:18,974 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:50:18,974 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:50:18,978 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:50:18,979 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:50:18,980 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:50:18,985 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:50:18,985 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:50:18,985 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:50:18,994 - kipro2 - DEBUG - pre:
+2024-02-10 18:50:18,994 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:51:13,776 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:51:13,776 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:51:13,780 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:51:13,781 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:51:13,781 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:51:13,786 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:51:13,786 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:51:13,786 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:51:13,793 - kipro2 - DEBUG - pre:
+2024-02-10 18:51:13,794 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:53:13,626 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:53:13,626 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:53:13,630 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:53:13,631 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:53:13,632 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:53:13,636 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:53:13,637 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:53:13,637 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:53:13,644 - kipro2 - DEBUG - pre:
+2024-02-10 18:53:13,644 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:55:15,448 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:55:15,448 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:55:15,452 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:55:15,453 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:55:15,453 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:55:15,458 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:55:15,458 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:55:15,458 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:55:15,467 - kipro2 - DEBUG - pre:
+2024-02-10 18:55:15,467 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:55:28,673 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:55:28,673 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:55:28,676 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:55:28,677 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:55:28,678 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:55:28,682 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:55:28,683 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:55:28,683 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:55:28,691 - kipro2 - DEBUG - pre:
+2024-02-10 18:55:28,691 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:56:01,362 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:56:01,362 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:56:01,365 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:56:01,366 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:56:01,367 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:56:01,371 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:56:01,372 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:56:01,372 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:56:01,380 - kipro2 - DEBUG - pre:
+2024-02-10 18:56:01,380 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:56:21,498 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:56:21,498 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:56:21,501 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:56:21,502 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:56:21,503 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:56:21,508 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:56:21,508 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:56:21,508 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:56:21,516 - kipro2 - DEBUG - pre:
+2024-02-10 18:56:21,516 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:56:53,725 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:56:53,725 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:56:53,728 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:56:53,729 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:56:53,730 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:56:53,734 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:56:53,735 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:56:53,735 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:56:53,742 - kipro2 - DEBUG - pre:
+2024-02-10 18:56:53,742 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:57:01,778 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:57:01,778 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:57:01,782 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:57:01,783 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:57:01,783 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:57:01,788 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:57:01,789 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:57:01,789 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:57:01,797 - kipro2 - DEBUG - pre:
+2024-02-10 18:57:01,797 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:58:22,965 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:58:22,965 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:58:22,968 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:58:22,969 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:58:22,970 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:58:22,974 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:58:22,975 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:58:22,975 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:58:22,983 - kipro2 - DEBUG - pre:
+2024-02-10 18:58:22,983 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:59:43,485 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 18:59:43,485 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 18:59:43,488 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 18:59:43,489 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 18:59:43,490 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 18:59:43,494 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 18:59:43,495 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 18:59:43,495 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 18:59:43,502 - kipro2 - DEBUG - pre:
+2024-02-10 18:59:43,502 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:01:24,727 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:01:24,727 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:01:24,731 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:01:24,731 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:01:24,732 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:01:24,736 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:01:24,737 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:01:24,737 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:01:24,744 - kipro2 - DEBUG - pre:
+2024-02-10 19:01:24,745 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:01:49,753 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:01:49,753 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:01:49,756 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:01:49,757 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:01:49,758 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:01:49,762 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:01:49,763 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:01:49,763 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:01:49,771 - kipro2 - DEBUG - pre:
+2024-02-10 19:01:49,771 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:03:18,254 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:03:18,254 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:03:18,258 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:03:18,259 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:03:18,259 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:03:18,264 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:03:18,265 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:03:18,265 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:03:18,273 - kipro2 - DEBUG - pre:
+2024-02-10 19:03:18,273 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:03:42,001 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:03:42,001 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:03:42,005 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:03:42,006 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:03:42,007 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:03:42,011 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:03:42,012 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:03:42,012 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:03:42,021 - kipro2 - DEBUG - pre:
+2024-02-10 19:03:42,021 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:04:28,376 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:04:28,376 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:04:28,380 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:04:28,381 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:04:28,382 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:04:28,387 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:04:28,387 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:04:28,387 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:04:28,396 - kipro2 - DEBUG - pre:
+2024-02-10 19:04:28,396 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:05:13,832 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:05:13,832 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:05:13,835 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:05:13,837 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:05:13,837 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:05:13,842 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:05:13,843 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:05:13,843 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:05:13,851 - kipro2 - DEBUG - pre:
+2024-02-10 19:05:13,851 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:05:58,975 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:05:58,975 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:05:58,979 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:05:58,979 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:05:58,980 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:05:58,985 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:05:58,985 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:05:58,985 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:05:58,993 - kipro2 - DEBUG - pre:
+2024-02-10 19:05:58,993 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:06:24,781 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:06:24,781 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:06:24,785 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:06:24,786 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:06:24,787 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:06:24,791 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:06:24,792 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:06:24,792 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:06:24,800 - kipro2 - DEBUG - pre:
+2024-02-10 19:06:24,801 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:07:12,065 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:07:12,065 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:07:12,068 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:07:12,069 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:07:12,070 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:07:12,074 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:07:12,075 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:07:12,075 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:07:12,082 - kipro2 - DEBUG - pre:
+2024-02-10 19:07:12,083 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:08:02,191 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:08:02,191 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:08:02,194 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:08:02,195 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:08:02,196 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:08:02,200 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:08:02,201 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:08:02,201 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:08:02,208 - kipro2 - DEBUG - pre:
+2024-02-10 19:08:02,209 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:08:22,045 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:08:22,045 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:08:22,049 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:08:22,050 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:08:22,050 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:08:22,055 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:08:22,056 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:08:22,056 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:08:22,064 - kipro2 - DEBUG - pre:
+2024-02-10 19:08:22,064 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:11:22,171 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:11:22,171 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:11:22,175 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:11:22,176 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:11:22,176 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:11:22,181 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:11:22,181 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:11:22,181 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:11:22,189 - kipro2 - DEBUG - pre:
+2024-02-10 19:11:22,189 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:11:52,357 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:11:52,357 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:11:52,360 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:11:52,361 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:11:52,362 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:11:52,366 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:11:52,367 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:11:52,367 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:11:52,375 - kipro2 - DEBUG - pre:
+2024-02-10 19:11:52,375 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:11:57,642 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:11:57,642 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:11:57,646 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:11:57,647 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:11:57,647 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:11:57,652 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:11:57,653 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:11:57,653 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:11:57,660 - kipro2 - DEBUG - pre:
+2024-02-10 19:11:57,661 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:16:26,736 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:16:26,736 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:16:26,739 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:16:26,740 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:16:26,741 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:16:26,745 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:16:26,746 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:16:26,746 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:16:26,754 - kipro2 - DEBUG - pre:
+2024-02-10 19:16:26,754 - kipro2 - DEBUG - [(((x) + ((n) * -1.0)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) + ((n) * -1.0)) < 0)] * (0) 
+2024-02-10 19:41:08,538 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 19:41:08,539 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 19:41:08,542 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 19:41:08,543 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 19:41:08,544 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 19:41:08,550 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 19:41:08,551 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 19:41:08,551 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 19:41:08,559 - kipro2 - DEBUG - pre:
+2024-02-10 19:41:08,559 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:02:54,660 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:02:54,661 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:02:54,664 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:02:54,665 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:02:54,665 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 20:02:54,672 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:02:54,672 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:02:54,672 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:02:54,679 - kipro2 - DEBUG - pre:
+2024-02-10 20:02:54,680 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:03:35,230 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:03:35,230 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:03:35,234 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:03:35,235 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:03:35,235 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 20:03:35,239 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:03:35,240 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:03:35,240 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:03:35,247 - kipro2 - DEBUG - pre:
+2024-02-10 20:03:35,247 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:04:23,129 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:04:23,129 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:04:23,133 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:04:23,134 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:04:23,134 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 20:04:23,141 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:04:23,142 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:04:23,142 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:04:23,150 - kipro2 - DEBUG - pre:
+2024-02-10 20:04:23,150 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:04:29,237 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:04:29,237 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:04:29,261 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:04:29,265 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:04:29,268 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 20:04:29,277 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:04:29,280 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:04:29,280 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:04:29,310 - kipro2 - DEBUG - pre:
+2024-02-10 20:04:29,312 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:20:24,057 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:20:24,057 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:20:24,061 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:20:24,061 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:20:24,062 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 20:20:24,066 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:20:24,067 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:20:24,067 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:20:24,075 - kipro2 - DEBUG - pre:
+2024-02-10 20:20:24,075 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:21:08,909 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:21:08,909 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:21:08,913 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:21:08,913 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:21:08,914 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 20:21:08,918 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:21:08,919 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:21:08,919 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:21:08,926 - kipro2 - DEBUG - pre:
+2024-02-10 20:21:08,927 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:21:25,351 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:21:25,351 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:21:25,355 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:21:25,356 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:21:25,356 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 20:21:25,361 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:21:25,361 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:21:25,361 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:21:25,369 - kipro2 - DEBUG - pre:
+2024-02-10 20:21:25,369 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:22:29,353 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:22:29,353 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:22:29,357 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:22:29,358 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:22:29,358 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 20:22:29,375 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:22:29,376 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:22:29,376 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:22:29,432 - kipro2 - DEBUG - pre:
+2024-02-10 20:22:29,433 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:23:19,443 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:23:19,443 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:23:19,447 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:23:19,448 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:23:19,448 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 20:23:19,464 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:23:19,465 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:23:19,465 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:23:19,515 - kipro2 - DEBUG - pre:
+2024-02-10 20:23:19,516 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:28:27,281 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:28:27,281 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:28:27,285 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:28:27,286 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:28:27,286 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 20:28:27,291 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:28:27,292 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:28:27,292 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:28:27,300 - kipro2 - DEBUG - pre:
+2024-02-10 20:28:27,300 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:29:29,951 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:29:29,951 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:29:29,955 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:29:29,955 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:29:43,095 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:29:43,095 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:29:43,099 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:29:43,099 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:29:43,099 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 20:29:43,104 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:29:43,104 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:29:43,104 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:29:43,112 - kipro2 - DEBUG - pre:
+2024-02-10 20:29:43,112 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:29:46,837 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat x;
+nat n;
+nat a;
+while (x < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    x := x + a;
+    tick(1);
+}
+
+2024-02-10 20:29:46,837 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:29:46,841 - kipro2 - DEBUG - Variables: [x, n, a]
+2024-02-10 20:29:46,841 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:29:46,842 - kipro2 - DEBUG - The modified variables are: {x, n}
+2024-02-10 20:29:46,847 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:29:46,847 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', x: 'x +1.0'}]) + 1/2 * (1.0 + f[{a: '0', x: 'x'}]) 
++ [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:29:46,848 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:29:46,856 - kipro2 - DEBUG - pre:
+2024-02-10 20:29:46,856 - kipro2 - DEBUG - [(((x) - (n)) < 0] * (-2.0*x +2.0*n +0.0*a +0.0) + [(! (((x) - (n)) < 0)] * (0) 
+2024-02-10 20:31:10,823 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "5*n"
+// examples/NCH-18/linear/bayesian_network.imp
+nat i;
+nat d;
+nat s;
+nat l;
+nat g;
+nat n;
+while (0 < n) {
+    i := 1 : 3/10 + 0 : 7/10;
+    tick(1);
+    d := 1 : 2/5 + 0 : 3/5;
+    tick(1);
+    if ((i < 1 & d < 1)) {
+        g := 1 : 7/10 + 0 : 3/10;
+        tick(1);
+    } else {
+        if ((i < 1 & 0 < d)) {
+            g := 1 : 19/20 + 0 : 1/20;
+            tick(1);
+        } else {
+            if ((0 < i & d < 1)) {
+                g := 1 : 1/10 + 0 : 9/10;
+                tick(1);
+            } else {
+                g := 1 : 1/2 + 0 : 1/2;
+                tick(1);
+            }
+        }
+    }
+    if (i < 1) {
+        s := 1 : 1/20 + 0 : 19/20;
+        tick(1);
+    } else {
+        s := 1 : 4/5 + 0 : 1/5;
+        tick(1);
+    }
+    if (g < 1) {
+        l := 1 : 1/10 + 0 : 9/10;
+        tick(1);
+    } else {
+        l := 1 : 3/5 + 0 : 2/5;
+        tick(1);
+    }
+    n := n - 1;
+}
+
+2024-02-10 20:31:10,823 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:31:10,848 - kipro2 - DEBUG - Variables: [i, d, s, l, g, n]
+2024-02-10 20:31:11,084 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:31:11,344 - kipro2 - DEBUG - The modified variables are: {n}
+2024-02-10 20:31:11,441 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:31:11,456 - kipro2 - DEBUG - [((-1* (n)) < 0] * (18/625 * (5.0 + f[{i: '1.0', d: '1.0', g: '1.0', s: '1.0', l: '1.0', n: 'n +-1.0'}]) + 12/625 * (5.0 + f[{i: '1.0', d: '1.0', g: '1.0', s: '1.0', l: '0', n: 'n +-1.0'}]) + 9/1250 * (5.0 + f[{i: '1.0', d: '1.0', g: '1.0', s: '0', l: '1.0', n: 'n +-1.0'}]) + 3/625 * (5.0 + f[{i: '1.0', d: '1.0', g: '1.0', s: '0', l: '0', n: 'n +-1.0'}]) + 3/625 * (5.0 + f[{i: '1.0', d: '1.0', g: '0', s: '1.0', l: '1.0', n: 'n +-1.0'}]) + 27/625 * (5.0 + f[{i: '1.0', d: '1.0', g: '0', s: '1.0', l: '0', n: 'n +-1.0'}]) + 3/2500 * (5.0 + f[{i: '1.0', d: '1.0', g: '0', s: '0', l: '1.0', n: 'n +-1.0'}]) + 27/2500 * (5.0 + f[{i: '1.0', d: '1.0', g: '0', s: '0', l: '0', n: 'n +-1.0'}]) + 27/3125 * (5.0 + f[{i: '1.0', d: '0', g: '1.0', s: '1.0', l: '1.0', n: 'n +-1.0'}]) + 18/3125 * (5.0 + f[{i: '1.0', d: '0', g: '1.0', s: '1.0', l: '0', n: 'n +-1.0'}]) + 27/12500 * (5.0 + f[{i: '1.0', d: '0', g: '1.0', s: '0', l: '1.0', n: 'n +-1.0'}]) + 9/6250 * (5.0 + f[{i: '1.0', d: '0', g: '1.0', s: '0', l: '0', n: 'n +-1.0'}]) + 81/6250 * (5.0 + f[{i: '1.0', d: '0', g: '0', s: '1.0', l: '1.0', n: 'n +-1.0'}]) + 729/6250 * (5.0 + f[{i: '1.0', d: '0', g: '0', s: '1.0', l: '0', n: 'n +-1.0'}]) + 81/25000 * (5.0 + f[{i: '1.0', d: '0', g: '0', s: '0', l: '1.0', n: 'n +-1.0'}]) + 729/25000 * (5.0 + f[{i: '1.0', d: '0', g: '0', s: '0', l: '0', n: 'n +-1.0'}]) + 399/50000 * (5.0 + f[{i: '0', d: '1.0', g: '1.0', s: '1.0', l: '1.0', n: 'n +-1.0'}]) + 133/25000 * (5.0 + f[{i: '0', d: '1.0', g: '1.0', s: '1.0', l: '0', n: 'n +-1.0'}]) + 7581/50000 * (5.0 + f[{i: '0', d: '1.0', g: '1.0', s: '0', l: '1.0', n: 'n +-1.0'}]) + 2527/25000 * (5.0 + f[{i: '0', d: '1.0', g: '1.0', s: '0', l: '0', n: 'n +-1.0'}]) + 7/100000 * (5.0 + f[{i: '0', d: '1.0', g: '0', s: '1.0', l: '1.0', n: 'n +-1.0'}]) + 63/100000 * (5.0 + f[{i: '0', d: '1.0', g: '0', s: '1.0', l: '0', n: 'n +-1.0'}]) + 133/100000 * (5.0 + f[{i: '0', d: '1.0', g: '0', s: '0', l: '1.0', n: 'n +-1.0'}]) + 1197/100000 * (5.0 + f[{i: '0', d: '1.0', g: '0', s: '0', l: '0', n: 'n +-1.0'}]) + 441/50000 * (5.0 + f[{i: '0', d: '0', g: '1.0', s: '1.0', l: '1.0', n: 'n +-1.0'}]) + 147/25000 * (5.0 + f[{i: '0', d: '0', g: '1.0', s: '1.0', l: '0', n: 'n +-1.0'}]) + 8379/50000 * (5.0 + f[{i: '0', d: '0', g: '1.0', s: '0', l: '1.0', n: 'n +-1.0'}]) + 2793/25000 * (5.0 + f[{i: '0', d: '0', g: '1.0', s: '0', l: '0', n: 'n +-1.0'}]) + 63/100000 * (5.0 + f[{i: '0', d: '0', g: '0', s: '1.0', l: '1.0', n: 'n +-1.0'}]) + 567/100000 * (5.0 + f[{i: '0', d: '0', g: '0', s: '1.0', l: '0', n: 'n +-1.0'}]) + 1197/100000 * (5.0 + f[{i: '0', d: '0', g: '0', s: '0', l: '1.0', n: 'n +-1.0'}]) + 10773/100000 * (5.0 + f[{i: '0', d: '0', g: '0', s: '0', l: '0', n: 'n +-1.0'}]) 
++ [(! ((-1* (n)) < 0)] * (0) 
+2024-02-10 20:31:11,456 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:31:11,465 - kipro2 - DEBUG - pre:
+2024-02-10 20:31:11,466 - kipro2 - DEBUG - [True] * (0.0*i +0.0*d +0.0*s +0.0*l +0.0*g +5.0*n +0.0) 
+2024-02-10 20:32:28,579 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat y;
+nat n;
+nat a;
+while (y < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    y := y + a;
+    tick(1);
+}
+
+2024-02-10 20:32:28,579 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:32:28,583 - kipro2 - DEBUG - Variables: [y, n, a]
+2024-02-10 20:32:28,584 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:32:28,584 - kipro2 - DEBUG - The modified variables are: {y, n}
+2024-02-10 20:32:28,589 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:32:28,589 - kipro2 - DEBUG - [(((y) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', y: 'y +1.0'}]) + 1/2 * (1.0 + f[{a: '0', y: 'y'}]) 
++ [(! (((y) - (n)) < 0)] * (0) 
+2024-02-10 20:32:28,589 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:32:41,646 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat y;
+nat n;
+nat a;
+while (y < n) {
+    a := 1 : 1/2 + 0 : 1/2;
+    y := y + a;
+    tick(1);
+}
+
+2024-02-10 20:32:41,646 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:32:41,650 - kipro2 - DEBUG - Variables: [y, n, a]
+2024-02-10 20:32:41,651 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:32:41,651 - kipro2 - DEBUG - The modified variables are: {y, n}
+2024-02-10 20:32:41,656 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:32:41,656 - kipro2 - DEBUG - [(((y) - (n)) < 0] * (1/2 * (1.0 + f[{a: '1.0', y: 'y +1.0'}]) + 1/2 * (1.0 + f[{a: '0', y: 'y'}]) 
++ [(! (((y) - (n)) < 0)] * (0) 
+2024-02-10 20:32:41,656 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:32:41,663 - kipro2 - DEBUG - pre:
+2024-02-10 20:32:41,664 - kipro2 - DEBUG - [(((y) - (n)) < 0] * (-2.0*y +2.0*n +0.0*a +0.0) + [(! (((y) - (n)) < 0)] * (0) 
+2024-02-10 20:33:05,321 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat y;
+nat m;
+nat a;
+while (y < m) {
+    a := 1 : 1/2 + 0 : 1/2;
+    y := y + a;
+    tick(1);
+}
+
+2024-02-10 20:33:05,321 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:33:05,325 - kipro2 - DEBUG - Variables: [y, m, a]
+2024-02-10 20:33:05,325 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:33:05,326 - kipro2 - DEBUG - The modified variables are: {y, m}
+2024-02-10 20:33:05,331 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:33:05,331 - kipro2 - DEBUG - [(((y) - (m)) < 0] * (1/2 * (1.0 + f[{a: '1.0', y: 'y +1.0'}]) + 1/2 * (1.0 + f[{a: '0', y: 'y'}]) 
++ [(! (((y) - (m)) < 0)] * (0) 
+2024-02-10 20:33:05,331 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:33:21,997 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat y;
+nat m;
+nat a;
+while (y < m) {
+    a := 1 : 1/2 + 0 : 1/2;
+    y := y + a;
+    tick(1);
+}
+
+2024-02-10 20:33:21,997 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:33:22,001 - kipro2 - DEBUG - Variables: [y, m, a]
+2024-02-10 20:33:22,001 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:33:22,002 - kipro2 - DEBUG - The modified variables are: {y, m}
+2024-02-10 20:33:22,006 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:33:22,007 - kipro2 - DEBUG - [(((y) - (m)) < 0] * (1/2 * (1.0 + f[{a: '1.0', y: 'y +1.0'}]) + 1/2 * (1.0 + f[{a: '0', y: 'y'}]) 
++ [(! (((y) - (m)) < 0)] * (0) 
+2024-02-10 20:33:22,007 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:33:22,015 - kipro2 - DEBUG - pre:
+2024-02-10 20:33:22,015 - kipro2 - DEBUG - [(((y) - (m)) < 0] * (-2.0*y +2.0*m +0.0*a +0.0) + [(! (((y) - (m)) < 0)] * (0) 
+2024-02-10 20:34:05,530 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n-x)" --assert-inductive 1
+// examples/NCH-18/linear/ber.imp
+nat y;
+nat m;
+nat a;
+while (y < m) {
+    a := 1 : 1/2 + 0 : 1/2;
+    y := y + a;
+    tick(1);
+}
+
+2024-02-10 20:34:05,530 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:34:05,534 - kipro2 - DEBUG - Variables: [y, m, a]
+2024-02-10 20:34:05,535 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:34:05,535 - kipro2 - DEBUG - The modified variables are: {y, m}
+2024-02-10 20:34:05,540 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:34:05,541 - kipro2 - DEBUG - [(((y) - (m)) < 0] * (1/2 * (1.0 + f[{a: '1.0', y: 'y +1.0'}]) + 1/2 * (1.0 + f[{a: '0', y: 'y'}]) 
++ [(! (((y) - (m)) < 0)] * (0) 
+2024-02-10 20:34:05,541 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:34:05,557 - kipro2 - DEBUG - pre:
+2024-02-10 20:34:05,557 - kipro2 - DEBUG - [(! (((y) - (m)) < 0)] * (0) + [(((y) - (m)) < 0] * (2.0*y +2.0*m) 
+2024-02-10 20:34:50,943 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n+1-d)"
+// examples/NCH-18/linear/2drwalk.imp
+nat x;
+nat y;
+nat d;
+nat n;
+while (d < n) {
+    if (0 < x) {
+        if (0 < y) {
+            {
+                x := x + 2;
+                d := d + 2;
+            } [1/4] {
+                {
+                    y := y + 2;
+                    d := d + 2;
+                } [1/3] {
+                    {
+                        x := x - 1;
+                        d := d - 1;
+                    } [1/2] {
+                        y := y - 1;
+                        d := d - 1;
+                    }
+                }
+            }
+        } else {
+            if (y < 0) {
+                {
+                    x := x + 2;
+                    d := d + 2;
+                } [1/4] {
+                    {
+                        y := y + 1;
+                        d := d - 1;
+                    } [1/3] {
+                        {
+                            x := x - 1;
+                            d := d - 1;
+                        } [1/2] {
+                            y := y - 2;
+                            d := d + 2;
+                        }
+                    }
+                }
+            } else {
+                {
+                    x := x + 2;
+                    d := d + 2;
+                } [1/4] {
+                    {
+                        y := y + 1;
+                        d := d + 1;
+                    } [1/3] {
+                        {
+                            x := x - 1;
+                            d := d - 1;
+                        } [1/2] {
+                            y := y - 1;
+                            d := d + 1;
+                        }
+                    }
+                }
+            }
+        }
+    } else {
+        if (x < 0) {
+            if (0 < y) {
+                {
+                    x := x + 1;
+                    d := d - 1;
+                } [1/4] {
+                    {
+                        y := y + 2;
+                        d := d + 2;
+                    } [1/3] {
+                        {
+                            x := x - 2;
+                            d := d + 2;
+                        } [1/2] {
+                            y := y - 1;
+                            d := d - 1;
+                        }
+                    }
+                }
+            } else {
+                if (y < 0) {
+                    {
+                        x := x + 1;
+                        d := d - 1;
+                    } [1/4] {
+                        {
+                            y := y + 1;
+                            d := d - 1;
+                        } [1/3] {
+                            {
+                                x := x - 2;
+                                d := d + 2;
+                            } [1/2] {
+                                y := y - 2;
+                                d := d + 2;
+                            }
+                        }
+                    }
+                } else {
+                    {
+                        x := x + 1;
+                        d := d - 1;
+                    } [1/4] {
+                        {
+                            y := y + 1;
+                            d := d + 1;
+                        } [1/3] {
+                            {
+                                x := x - 2;
+                                d := d + 2;
+                            } [1/2] {
+                                y := y - 1;
+                                d := d + 1;
+                            }
+                        }
+                    }
+                }
+            }
+        } else {
+            if (0 < y) {
+                {
+                    x := x + 1;
+                    d := d + 1;
+                } [1/4] {
+                    {
+                        y := y + 2;
+                        d := d + 2;
+                    } [1/3] {
+                        {
+                            x := x - 1;
+                            d := d + 1;
+                        } [1/2] {
+                            y := y - 1;
+                            d := d - 1;
+                        }
+                    }
+                }
+            } else {
+                if (y < 0) {
+                    {
+                        x := x + 1;
+                        d := d + 1;
+                    } [1/4] {
+                        {
+                            y := y + 1;
+                            d := d - 1;
+                        } [1/3] {
+                            {
+                                x := x - 1;
+                                d := d + 1;
+                            } [1/2] {
+                                y := y - 2;
+                                d := d + 2;
+                            }
+                        }
+                    }
+                } else {
+                    {
+                        x := x + 1;
+                        d := d + 1;
+                    } [1/4] {
+                        {
+                            y := y + 1;
+                            d := d + 1;
+                        } [1/3] {
+                            {
+                                x := x - 1;
+                                d := d + 1;
+                            } [1/2] {
+                                y := y - 1;
+                                d := d + 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    tick(1);
+}
+
+2024-02-10 20:34:50,943 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:34:51,023 - kipro2 - DEBUG - Variables: [x, y, d, n]
+2024-02-10 20:34:51,034 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:34:51,044 - kipro2 - DEBUG - The modified variables are: {x, y, d, n}
+2024-02-10 20:34:51,054 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:34:51,058 - kipro2 - DEBUG - [((((d) - (n)) < 0.0) & ((-1.0 * (y)) < 0.0) & ((-1* (x)) < 0)] * (1/4 * (1.0 + f[{x: 'x +2.0', d: 'd +2.0'}]) + 1/4 * (1.0 + f[{y: 'y +2.0', d: 'd +2.0'}]) + 1/4 * (1.0 + f[{x: 'x +-1.0', d: 'd +-1.0'}]) + 1/4 * (1.0 + f[{y: 'y +-1.0', d: 'd +-1.0'}]) 
++[((((d) - (n)) < 0.0) & ((-1.0 * (x)) < 0.0) & (! ((-1* (y)) < 0.0)) & (! ((y) < 0))] * (1/4 * (1.0 + f[{x: 'x +2.0', d: 'd +2.0'}]) + 1/4 * (1.0 + f[{y: 'y +1.0', d: 'd +1.0'}]) + 1/4 * (1.0 + f[{x: 'x +-1.0', d: 'd +-1.0'}]) + 1/4 * (1.0 + f[{y: 'y +-1.0', d: 'd +1.0'}]) 
++[((((d) - (n)) < 0.0) & ((-1.0 * (y)) < 0.0) & (! ((x) < 0.0)) & (! ((-1* (x)) < 0))] * (1/4 * (1.0 + f[{x: 'x +1.0', d: 'd +1.0'}]) + 1/4 * (1.0 + f[{y: 'y +2.0', d: 'd +2.0'}]) + 1/4 * (1.0 + f[{x: 'x +-1.0', d: 'd +1.0'}]) + 1/4 * (1.0 + f[{y: 'y +-1.0', d: 'd +-1.0'}]) 
++[((! ((-1.0 * (x)) < 0.0)) & (! ((-1* (y)) < 0.0)) & (((d) - (n)) < 0.0) & (! ((y) < 0.0)) & (! ((x) < 0))] * (1/4 * (1.0 + f[{x: 'x +1.0', d: 'd +1.0'}]) + 1/4 * (1.0 + f[{y: 'y +1.0', d: 'd +1.0'}]) + 1/4 * (1.0 + f[{x: 'x +-1.0', d: 'd +1.0'}]) + 1/4 * (1.0 + f[{y: 'y +-1.0', d: 'd +1.0'}]) 
++ [(! (((d) - (n)) < 0)] * (0) 
+2024-02-10 20:34:51,058 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
+2024-02-10 20:37:15,925 - kipro2 - DEBUG - Parsing program: 
+ // ARGS: --ert --post 0 --pre "2*(n+1-d)"
+// examples/NCH-18/linear/2drwalk.imp
+nat x;
+nat y;
+nat d;
+nat n;
+while (0<d & d < n) {
+    if (0 < x) {
+        if (0 < y) {
+            {
+                x := x + 2;
+                d := d + 2;
+            } [1/4] {
+                {
+                    y := y + 2;
+                    d := d + 2;
+                } [1/3] {
+                    {
+                        x := x - 1;
+                        d := d - 1;
+                    } [1/2] {
+                        y := y - 1;
+                        d := d - 1;
+                    }
+                }
+            }
+        } else {
+            if (y < 0) {
+                {
+                    x := x + 2;
+                    d := d + 2;
+                } [1/4] {
+                    {
+                        y := y + 1;
+                        d := d - 1;
+                    } [1/3] {
+                        {
+                            x := x - 1;
+                            d := d - 1;
+                        } [1/2] {
+                            y := y - 2;
+                            d := d + 2;
+                        }
+                    }
+                }
+            } else {
+                {
+                    x := x + 2;
+                    d := d + 2;
+                } [1/4] {
+                    {
+                        y := y + 1;
+                        d := d + 1;
+                    } [1/3] {
+                        {
+                            x := x - 1;
+                            d := d - 1;
+                        } [1/2] {
+                            y := y - 1;
+                            d := d + 1;
+                        }
+                    }
+                }
+            }
+        }
+    } else {
+        if (x < 0) {
+            if (0 < y) {
+                {
+                    x := x + 1;
+                    d := d - 1;
+                } [1/4] {
+                    {
+                        y := y + 2;
+                        d := d + 2;
+                    } [1/3] {
+                        {
+                            x := x - 2;
+                            d := d + 2;
+                        } [1/2] {
+                            y := y - 1;
+                            d := d - 1;
+                        }
+                    }
+                }
+            } else {
+                if (y < 0) {
+                    {
+                        x := x + 1;
+                        d := d - 1;
+                    } [1/4] {
+                        {
+                            y := y + 1;
+                            d := d - 1;
+                        } [1/3] {
+                            {
+                                x := x - 2;
+                                d := d + 2;
+                            } [1/2] {
+                                y := y - 2;
+                                d := d + 2;
+                            }
+                        }
+                    }
+                } else {
+                    {
+                        x := x + 1;
+                        d := d - 1;
+                    } [1/4] {
+                        {
+                            y := y + 1;
+                            d := d + 1;
+                        } [1/3] {
+                            {
+                                x := x - 2;
+                                d := d + 2;
+                            } [1/2] {
+                                y := y - 1;
+                                d := d + 1;
+                            }
+                        }
+                    }
+                }
+            }
+        } else {
+            if (0 < y) {
+                {
+                    x := x + 1;
+                    d := d + 1;
+                } [1/4] {
+                    {
+                        y := y + 2;
+                        d := d + 2;
+                    } [1/3] {
+                        {
+                            x := x - 1;
+                            d := d + 1;
+                        } [1/2] {
+                            y := y - 1;
+                            d := d - 1;
+                        }
+                    }
+                }
+            } else {
+                if (y < 0) {
+                    {
+                        x := x + 1;
+                        d := d + 1;
+                    } [1/4] {
+                        {
+                            y := y + 1;
+                            d := d - 1;
+                        } [1/3] {
+                            {
+                                x := x - 1;
+                                d := d + 1;
+                            } [1/2] {
+                                y := y - 2;
+                                d := d + 2;
+                            }
+                        }
+                    }
+                } else {
+                    {
+                        x := x + 1;
+                        d := d + 1;
+                    } [1/4] {
+                        {
+                            y := y + 1;
+                            d := d + 1;
+                        } [1/3] {
+                            {
+                                x := x - 1;
+                                d := d + 1;
+                            } [1/2] {
+                                y := y - 1;
+                                d := d + 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    tick(1);
+}
+
+2024-02-10 20:37:15,925 - kipro2 - DEBUG - 
+ with postexpectation: 
+ 0
+2024-02-10 20:37:16,001 - kipro2 - DEBUG - Variables: [x, y, d, n]
+2024-02-10 20:37:16,011 - kipro2 - DEBUG - Parsing guard_probsubpairs. Not ignoring ticks.
+2024-02-10 20:37:16,022 - kipro2 - DEBUG - The modified variables are: {x, y, d, n}
+2024-02-10 20:37:16,032 - kipro2 - DEBUG - 
+Characteristic Functional:
+2024-02-10 20:37:16,035 - kipro2 - DEBUG - [(((-1.0 * (d)) < 0.0) & (((d) - (n)) < 0.0) & ((-1.0 * (y)) < 0.0) & ((-1* (x)) < 0)] * (1/4 * (1.0 + f[{x: 'x +2.0', d: 'd +2.0'}]) + 1/4 * (1.0 + f[{y: 'y +2.0', d: 'd +2.0'}]) + 1/4 * (1.0 + f[{x: 'x +-1.0', d: 'd +-1.0'}]) + 1/4 * (1.0 + f[{y: 'y +-1.0', d: 'd +-1.0'}]) 
++[(((-1.0 * (x)) < 0.0) & (! ((-1.0 * (y)) < 0.0)) & (((d) - (n)) < 0.0) & ((-1* (d)) < 0.0) & (! ((y) < 0))] * (1/4 * (1.0 + f[{x: 'x +2.0', d: 'd +2.0'}]) + 1/4 * (1.0 + f[{y: 'y +1.0', d: 'd +1.0'}]) + 1/4 * (1.0 + f[{x: 'x +-1.0', d: 'd +-1.0'}]) + 1/4 * (1.0 + f[{y: 'y +-1.0', d: 'd +1.0'}]) 
++[((! ((x) < 0.0)) & ((-1.0 * (y)) < 0.0) & (! ((-1.0 * (x)) < 0.0)) & (((d) - (n)) < 0.0) & ((-1* (d)) < 0)] * (1/4 * (1.0 + f[{x: 'x +1.0', d: 'd +1.0'}]) + 1/4 * (1.0 + f[{y: 'y +2.0', d: 'd +2.0'}]) + 1/4 * (1.0 + f[{x: 'x +-1.0', d: 'd +1.0'}]) + 1/4 * (1.0 + f[{y: 'y +-1.0', d: 'd +-1.0'}]) 
++[((! ((x) < 0.0)) & (! ((-1.0 * (x)) < 0.0)) & (! ((-1.0 * (y)) < 0.0)) & (((d) - (n)) < 0.0) & ((-1* (d)) < 0.0) & (! ((y) < 0))] * (1/4 * (1.0 + f[{x: 'x +1.0', d: 'd +1.0'}]) + 1/4 * (1.0 + f[{y: 'y +1.0', d: 'd +1.0'}]) + 1/4 * (1.0 + f[{x: 'x +-1.0', d: 'd +1.0'}]) + 1/4 * (1.0 + f[{y: 'y +-1.0', d: 'd +1.0'}]) 
++ [(! (((-1* (d)) < 0.0) & (((d) - (n)) < 0))] * (0) 
+2024-02-10 20:37:16,035 - kipro2 - DEBUG - 
+Checking whether updates always yield non-negative result.
